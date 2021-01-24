@@ -24,7 +24,7 @@ export default function App() {
     // because AsyncStorage save with type string, you must change value using JSON.stringify
     AsyncStorage.setItem("id", JSON.stringify(id));
     AsyncStorage.setItem("name", JSON.stringify(name));
-    alert("Data Tersimpan");
+    alert("Data Saved !!");
   }
 
   //get data asyncstorage
